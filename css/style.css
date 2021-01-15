@@ -5,7 +5,11 @@
 }
 body{
   font-family: 'Nerko One', cursive;
-  background-color: #ADD8E6
+  background-color: #ADD8E6;
+}
+main{
+  /* -------------- */
+  position: relative;
 }
 .central{
   text-align: center;
@@ -15,5 +19,39 @@ body{
   font-size: 50px;
 }
 .fine{
+  margin-top: 10px;
   color: black;
+}
+/* ------------------------------------- */
+.box{
+  width: 80%;
+  background-color: red; /*da togliere*/
+  margin: auto;
+  position: relative;
+}
+.riga{
+  height: 200px;
+  width: 80%;
+  margin: 0 auto;
+}
+.uno{
+  background-color: pink;
+}
+.due{
+  background-color: orange;
+}
+.tre{
+  background-color: green;
+}
+.carta1{
+
+}
+.carta2{
+
+}
+.carta3{
+
+}
+.carta4{
+
 }
