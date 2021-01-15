@@ -7,3 +7,13 @@ body{
   font-family: 'Nerko One', cursive;
   background-color: #ADD8E6
 }
+.central{
+  text-align: center;
+}
+.inizio{
+  color: white;
+  font-size: 50px;
+}
+.fine{
+  color: black;
+}
