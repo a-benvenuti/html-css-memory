@@ -21,21 +21,29 @@ body{
 }
 /* fine header e footer */
 /* ---------------------------------------------------------------- */
+img{
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+}
 .box{
   width: 80%;
-  background-color: red; /*da togliere*/
+  /* background-color: red; */
   margin: auto;
 }
 .riga{
-  height: 100px;
-  width: 80%;
+  height: 250px;
+  width: 70%;
   margin: auto;
-  background-color: pink;
-  /* position: relative; */
+  background-color: pink; /*da togliere*/
+  padding: 10px;
 }
 .carta{
   height: 100%;
   width: 25%;
-  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: black; /*da togliere*/
   display: inline-block;
 }
