@@ -7,6 +7,9 @@ body{
   font-family: 'Nerko One', cursive;
   background-image: url("../img/sfondo.jpg");
 }
+h1{
+  text-shadow: 2px 2px 4px #000000;
+}
 .gamebox{
   margin: auto;
   background-color: #ADD8E699;
@@ -26,17 +29,16 @@ body{
 .fine{
   margin-top: 10px;
   margin-bottom: 0;
+  font-size: 20px;
   color: black;
 }
 /* fine header e footer */
 /* ----------------------------------GIOCO------------------------------- */
 .mazzo{
-  /* background-color: red; */
   height: 810px;
   width: 100%;
 }
 .cella{
-  /* background-color: orange; */
   width: 930px;
   height: 260px;
   margin:10px;
@@ -47,15 +49,8 @@ body{
   border-radius: 10px;
   height: 260px;
   width: 225px;
-  background-color: black;
+  background-image: url("../img/pattern.png");
   background-size: contain;
-  background-repeat: no-repeat;
-}
-.cover{
-  display: inline-block;
-  border-radius: 10px;
-  height: 260px;
-  width: 225px;
 }
 .pos1{
   position: absolute;
