@@ -13,66 +13,78 @@
     <title>a-benvenuti</title>
   </head>
   <body>
-    <div class="gamebox">
-      <!-- header -->
-      <div class="central inizio">
-        <h1>MEMORY GAME</h1>
+    <!-- Intestazione -->
+    <header>
+      <h1>MEMORY GAME</h1>
+    </header>
+    <!-- /Intestazione -->
+
+    <!-- Game Box -->
+    <main>
+      <div class="cards">
+        <div class="row">
+          <div class="card">
+            <img src="img/nave.png" alt="">
+            <h2>Nave</h2>
+          </div>
+          <div class="card">
+            <img src="img/bici.png" alt="">
+            <h2>Bici</h2>
+          </div>
+          <div class="card">
+            <img src="img/pallone.png" alt="">
+            <h2>Pallone</h2>
+          </div>
+          <div class="card">
+            <img src="img/tram.png" alt="">
+            <h2>Tram</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card">
+            <img src="img/pallone.png" alt="">
+            <h2>Pallone</h2>
+          </div>
+          <div class="card active">
+            <img src="img/nave.png" alt="">
+            <h2>Nave</h2>
+          </div>
+          <div class="card">
+            <img src="img/trattore.png" alt="">
+            <h2>Trattore</h2>
+          </div>
+          <div class="card">
+            <img src="img/bici.png" alt="">
+            <h2>Bici</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card">
+            <img src="img/tram.png" alt="">
+            <h2>Tram</h2>
+          </div>
+          <div class="card">
+            <img src="img/trattore.png" alt="">
+            <h2>Trattore</h2>
+          </div>
+          <div class="card">
+            <img src="img/sottomarino.png" alt="">
+            <h2>Sottomarino</h2>
+          </div>
+          <div class="card">
+            <img src="img/sottomarino.png" alt="">
+            <h2>Sottomarino</h2>
+          </div>
+        </div>
       </div>
-      <!-- /header -->
+    </main>
+    <!-- /Game Box -->
 
-      <!-- gioco -->
-      <main class="mazzo">
-        <div class="cella superiore">
-          <div class="carta pos1">
-            <h3 class="name">Nave</h3>
-          </div><!--
-          --><div class="carta pos2">
-            <h3 class="name">Pallone</h3>
-          </div><!--
-          --><div class="carta pos3">
-            <h3 class="name">Tram</h3>
-          </div><!--
-          --><div class="carta pos4">
-            <h3 class="name">Sottomarino</h3>
-          </div>
-        </div>
-        <div class="cella centrale">
-          <div class="carta pos1">
-            <h3 class="name">Sottomarino</h3>
-          </div><!--
-          --><div class="carta pos2">
-          <h3 class="name">Trattore</h3>
-          </div><!--
-          --><div class="carta pos3">
-          <h3 class="name">Bici</h3>
-          </div><!--
-          --><div class="carta pos4">
-          <h3 class="name">Tram</h3>
-          </div>
-        </div>
-        <div class="cella inferiore">
-          <div class="carta pos1">
-            <h3 class="name">Pallone</h3>
-          </div><!--
-          --><div class="carta pos2">
-          <h3 class="name">Bici</h3>
-          </div><!--
-          --><div class="carta pos3">
-          <h3 class="name">Trattore</h3>
-          </div><!--
-          --><div class="carta pos4">
-          <h3 class="name">Nave</h3>
-          </div>
-        </div>
-      </main>
-      <!-- /gioco -->
-
-      <!-- footer -->
-      <footer class="central fine">
-        <h2>from Team Boolean</h2>
-      </footer>
-      <!-- footer -->
-    </div>
+    <!-- Pie di pagina -->
+    <footer>
+      <p>From Team Boolean</p>
+    </footer>
+    <!-- /Pie di pagina -->
 
   </body>
 </html>
